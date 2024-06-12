@@ -11,3 +11,16 @@ for(i=0; i<= lista.lengeth ; i++){
         i=lista.indexOf("arthur")
         console.log("indice: "+i)
     }
+
+const nome =["Monica","Arthur","Paulo"]
+const media=[8       ,9       ,10     ]
+const dado=[nome,media]
+function busca media(nome,dado);{
+    Lnome = dado.slide(0,0)
+    Lmedia = dado.slide(1,1)
+    if(Lnome.include(nome)){
+        return Lmedia[Lnome.indexOf(nome)]
+    
+}
+return-1
+}
